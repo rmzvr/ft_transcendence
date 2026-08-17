@@ -55,8 +55,7 @@ api.interceptors.response.use(
   (res) => res,
   async (error) => {
     const originalRequest = error.config as
-      | RetriableAxiosRequestConfig
-      | undefined;
+      RetriableAxiosRequestConfig | undefined;
     const requestUrl = originalRequest?.url;
 
     if (

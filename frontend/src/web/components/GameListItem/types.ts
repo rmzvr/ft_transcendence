@@ -9,6 +9,5 @@ export type UserGameHistoryItem = SharedUserGameHistoryItem;
 export type GameListItemData = LobbyGame | UserGameHistoryItem;
 
 export type GameSlot = { id: number } & (
-  | { kind: "real"; player: ProfileUser }
-  | { kind: "placeholder" }
+  { kind: "real"; player: ProfileUser } | { kind: "placeholder" }
 );
