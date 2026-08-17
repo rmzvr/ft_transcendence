@@ -8,3 +8,4 @@ allowBuilds:
   bcrypt: false
   esbuild: false
   prisma: true
+minimumReleaseAge: 1440
