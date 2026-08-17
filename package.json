@@ -11,5 +11,5 @@
     "fix": "pnpm run -r format:fix lint:fix",
     "dev": "make postgres && pnpm run -r dev"
   },
-  "packageManager": "pnpm@10.33.0"
+  "packageManager": "pnpm@11.22.0"
 }
