@@ -96,8 +96,7 @@ export interface FriendOnlineStatusChangedPayload {
 }
 
 export type SocketAckPayload =
-  | { ok: true }
-  | { ok: false; code: SocketErrorCode; message: string };
+  { ok: true } | { ok: false; code: SocketErrorCode; message: string };
 
 export type SeeTheFuturePeekPayload = ShowedCardsToPlayerPayload;
 

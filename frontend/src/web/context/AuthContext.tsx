@@ -2,10 +2,7 @@ import { createContext } from "react";
 
 export type AccessToken = string;
 export type AuthStatus =
-  | "loading"
-  | "authenticated"
-  | "anonymous"
-  | "unavailable";
+  "loading" | "authenticated" | "anonymous" | "unavailable";
 
 export interface AuthContextValue {
   accessToken: AccessToken | null;
