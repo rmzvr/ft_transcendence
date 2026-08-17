@@ -1,5 +1,5 @@
 # Create certificate
-FROM alpine:3.22.2 AS certificate
+FROM alpine:3.24.1 AS certificate
 
 RUN apk update && apk add --no-cache openssl
 
