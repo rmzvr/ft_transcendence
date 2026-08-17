@@ -124,7 +124,7 @@ services:
       - transcendence_net
 
   grafana:
-    image: grafana/grafana:11.3.1
+    image: grafana/grafana:11.6.16
     container_name: ft-grafana
     env_file:
      - ../env/.env
