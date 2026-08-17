@@ -11,7 +11,7 @@ RUN openssl req -x509 -nodes -days 3650 -newkey rsa:4096 \
 	-subj "/C=NL/L=Amsterdam/O=Exploding-CATs"
 
 # NGINX
-FROM nginx:alpine
+FROM nginx:1.30.4-alpine3.24
 
 COPY --from=certificate /etc/nginx/ssl /etc/nginx/ssl
 COPY nginx.conf /etc/nginx/templates/default.conf.template
