@@ -16,7 +16,7 @@
     "@exploding-cats/contracts": "workspace:*",
     "@exploding-cats/game-core": "workspace:*",
     "@hookform/resolvers": "^5.9.0",
-    "axios": "^1.19.0",
+    "axios": "^1.20.0",
     "clsx": "^2.1.1",
     "modern-normalize": "^3.0.1",
     "phaser": "^3.90.0",
